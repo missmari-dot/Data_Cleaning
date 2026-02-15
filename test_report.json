@@ -1,0 +1,34 @@
+{
+  "date": "2026-01-25",
+  "dataset": {
+    "rows": 7,
+    "columns": 4,
+    "column_names": [
+      "id",
+      "name",
+      "age",
+      "salary"
+    ]
+  },
+  "issues_detected": {
+    "missing_values": 2,
+    "duplicates_all_columns": 0,
+    "duplicates_on_id": 2,
+    "outliers": 2
+  },
+  "tests_results": {
+    "Détection valeurs manquantes": "PASS",
+    "Détection doublons (toutes colonnes)": "PASS",
+    "Détection doublons (ID)": "PASS",
+    "Détection valeurs aberrantes": "PASS",
+    "Détection automatique colonnes ID": "PASS",
+    "Suppression doublons": "PASS",
+    "Traitement valeurs manquantes": "PASS",
+    "Traitement valeurs aberrantes": "PASS"
+  },
+  "tests_summary": {
+    "passed": 8,
+    "total": 8,
+    "success_rate": "100.0%"
+  }
+}
