@@ -1,0 +1,32 @@
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+
+# Environnements virtuels
+env/
+venv/
+.venv/
+
+# Logs
+*.log
+
+# Configs locales
+*.env
+.env.*
+
+# --- React / Node ---
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build React
+build/
+dist/
+
+# Coverage / tests
+coverage/
+*.lcov
