@@ -1,11 +1,11 @@
-Flask==3.0.0
-Flask-CORS==4.0.0
-pandas==2.1.4
-numpy==1.26.2
-scikit-learn==1.3.2
-openpyxl==3.1.2
-xlrd==2.0.1
-Werkzeug==3.0.1
+Flask
+Flask-CORS
+pandas
+numpy
+scikit-learn
+openpyxl
+xlrd
+Werkzeug
 gunicorn
 pymysql
 
