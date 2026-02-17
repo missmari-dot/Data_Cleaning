@@ -12,6 +12,13 @@ import io
 
 app = Flask(__name__)
 CORS(app)
+@app.route("/")
+def home():
+    return "API is running"
+
+@app.route("/health")
+def health():
+    return {"status": "ok"}
 
 # Configuration
 UPLOAD_FOLDER = 'uploads'
